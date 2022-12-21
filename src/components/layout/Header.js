@@ -1,12 +1,15 @@
-import React, {useState} from 'react'
+import React, {useState,useRef, useLayoutEffect} from 'react'
 import {Link} from 'react-router-dom'
 import { ClickAwayListener } from '@mui/base';
 
 function Header() {
+    const LineRef=useRef(null)
     const [sideBarDispalay, setsideBarDisplay]=useState(false);
     const [categoryDispaly, setCategoryDispaly]=useState(false);
     const [sideCartDisplay, setSideCartDispaly]=useState(false);
-  
+    useLayoutEffect(() => {
+        LineRef.current.style.setProperty("line-height", "1", "important");
+      }, []);
   return (
     <div>
            <div className={`off_canvars_overlay  ${sideBarDispalay? 'active':''} ${sideCartDisplay? 'active':''}`}  >
@@ -137,11 +140,11 @@ function Header() {
                                                     </ul>
                                                 </div>
                                                 <div className="header_account_list header_wishlist">
-                                                    <Link to="/whishlist"><span className="lnr lnr-heart"></span> <span className="item_count">3</span> </Link>
+                                                   <Link to="/whishlist"><span ref={LineRef} className="lnr lnr-heart"></span> <span className="item_count">3</span> </Link>
                                                 </div>
                                                    <ClickAwayListener  onClickAway={()=>setSideCartDispaly(false)}>
                                                 <div className="header_account_list  mini_cart_wrapper">
-                                                   <a  onClick={()=>setSideCartDispaly(true)}><span className="lnr lnr-cart"></span><span className="item_count">2</span></a>
+                                                   <a  onClick={()=>setSideCartDispaly(true)}><span ref={LineRef} className="lnr lnr-cart"></span><span className="item_count">2</span></a>
 
                                                    
                                                     <div className={`mini_cart ${sideCartDisplay? 'active':''}`}>
