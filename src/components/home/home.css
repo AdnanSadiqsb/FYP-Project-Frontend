@@ -1,0 +1,32 @@
+.slilde-content-poster{
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: all 1s;
+}
+.slilde-content-poster-remove{
+    opacity: 1 !important;
+    transform: translateX(0%);
+}
+.poster-mini-left{
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: all 1s;
+}
+.poster-mini-right{
+    transform: translateX(100%);
+    transition: all 1s;
+    opacity: 0;
+}
+.poster-mini-left-remove{
+    opacity: 1 !important;
+    transform: translateX(0%) !important;
+
+}
+.slilde-poster-2{
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+.outer-section{
+    overflow-x: hidden;
+}
