@@ -134,18 +134,18 @@ function Home() {
             </div> 
             <div className='product-container-trending'>
               
-              <div to='/productDetail' className="single_product">
+              <div  className="single_product">
     
                 <div className="product_thumb">
-                  <a className="primary_img" href="product-details.html"><img src="assets\img\customImages\product1.jpg" alt=""/></a>
-                  <a className="secondary_img" href="product-details.html"><img src="assets\img\customImages\product2.webp" alt=""/></a>
+                  <Link className="primary_img" to="/productDetail"><img src="assets\img\customImages\product1.jpg" alt=""/></Link>
+                  <Link className="secondary_img" to="/productDetail"><img src="assets\img\customImages\product2.webp" alt=""/></Link>
                   <div className="label_product">
                     <span className="label_sale">Sale</span>
                     <span className="label_new">New</span>
                   </div>
                   <div className="action_links">
                     <ul>
-                      <li className="add_to_cart"><a href="cart.html" data-tippy="Add to cart" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"> <span className="lnr lnr-cart"></span></a></li>
+                      <li className="add_to_cart"><Link to="./cart" data-tippy="Add to cart" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"> <span className="lnr lnr-cart"></span></Link></li>
                       <li className="quick_button"><a href="#" data-tippy="quick view" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-bs-toggle="modal" data-bs-target="#modal_box" > <span className="lnr lnr-magnifier"></span></a></li>
                       <li className="wishlist"><a href="wishlist.html" data-tippy="Add to Wishlist" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"><span className="lnr lnr-heart"></span></a></li>  
                     </ul>
@@ -160,7 +160,199 @@ function Home() {
                 </div>
               </figcaption>
     
-              </div>
+            </div>
+                          
+            <div  className="single_product">
+    
+    <div className="product_thumb">
+      <Link className="primary_img" to="/productDetail"><img src="assets\img\customImages\product1.jpg" alt=""/></Link>
+      <Link className="secondary_img" to="/productDetail"><img src="assets\img\customImages\product2.webp" alt=""/></Link>
+      <div className="label_product">
+        <span className="label_sale">Sale</span>
+        <span className="label_new">New</span>
+      </div>
+      <div className="action_links">
+        <ul>
+          <li className="add_to_cart"><Link to="./cart" data-tippy="Add to cart" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"> <span className="lnr lnr-cart"></span></Link></li>
+          <li className="quick_button"><a href="#" data-tippy="quick view" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-bs-toggle="modal" data-bs-target="#modal_box" > <span className="lnr lnr-magnifier"></span></a></li>
+          <li className="wishlist"><a href="wishlist.html" data-tippy="Add to Wishlist" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"><span className="lnr lnr-heart"></span></a></li>  
+        </ul>
+      </div>
+    </div>
+  <figcaption className="product_content">
+    <h4 className="product_name"><a href="product-details.html">Aliquam Consequat</a></h4>
+    <p><a href="#">cacke</a></p>
+    <div className="price_box"> 
+      <span className="current_price">$26.00</span>
+      <span className="old_price">$362.00</span>
+    </div>
+  </figcaption>
+
+</div>
+              
+<div  className="single_product">
+    
+    <div className="product_thumb">
+      <Link className="primary_img" to="/productDetail"><img src="assets\img\customImages\product1.jpg" alt=""/></Link>
+      <Link className="secondary_img" to="/productDetail"><img src="assets\img\customImages\product2.webp" alt=""/></Link>
+      <div className="label_product">
+        <span className="label_sale">Sale</span>
+        <span className="label_new">New</span>
+      </div>
+      <div className="action_links">
+        <ul>
+          <li className="add_to_cart"><Link to="./cart" data-tippy="Add to cart" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"> <span className="lnr lnr-cart"></span></Link></li>
+          <li className="quick_button"><a href="#" data-tippy="quick view" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-bs-toggle="modal" data-bs-target="#modal_box" > <span className="lnr lnr-magnifier"></span></a></li>
+          <li className="wishlist"><a href="wishlist.html" data-tippy="Add to Wishlist" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"><span className="lnr lnr-heart"></span></a></li>  
+        </ul>
+      </div>
+    </div>
+  <figcaption className="product_content">
+    <h4 className="product_name"><a href="product-details.html">Aliquam Consequat</a></h4>
+    <p><a href="#">cacke</a></p>
+    <div className="price_box"> 
+      <span className="current_price">$26.00</span>
+      <span className="old_price">$362.00</span>
+    </div>
+  </figcaption>
+
+</div>              
+              <div  className="single_product">
+    
+                <div className="product_thumb">
+                  <Link className="primary_img" to="/productDetail"><img src="assets\img\customImages\product1.jpg" alt=""/></Link>
+                  <Link className="secondary_img" to="/productDetail"><img src="assets\img\customImages\product2.webp" alt=""/></Link>
+                  <div className="label_product">
+                    <span className="label_sale">Sale</span>
+                    <span className="label_new">New</span>
+                  </div>
+                  <div className="action_links">
+                    <ul>
+                      <li className="add_to_cart"><Link to="./cart" data-tippy="Add to cart" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"> <span className="lnr lnr-cart"></span></Link></li>
+                      <li className="quick_button"><a href="#" data-tippy="quick view" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-bs-toggle="modal" data-bs-target="#modal_box" > <span className="lnr lnr-magnifier"></span></a></li>
+                      <li className="wishlist"><a href="wishlist.html" data-tippy="Add to Wishlist" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"><span className="lnr lnr-heart"></span></a></li>  
+                    </ul>
+                  </div>
+                </div>
+              <figcaption className="product_content">
+                <h4 className="product_name"><a href="product-details.html">Aliquam Consequat</a></h4>
+                <p><a href="#">cacke</a></p>
+                <div className="price_box"> 
+                  <span className="current_price">$26.00</span>
+                  <span className="old_price">$362.00</span>
+                </div>
+              </figcaption>
+    
+            </div>              
+              <div  className="single_product">
+    
+                <div className="product_thumb">
+                  <Link className="primary_img" to="/productDetail"><img src="assets\img\customImages\product1.jpg" alt=""/></Link>
+                  <Link className="secondary_img" to="/productDetail"><img src="assets\img\customImages\product2.webp" alt=""/></Link>
+                  <div className="label_product">
+                    <span className="label_sale">Sale</span>
+                    <span className="label_new">New</span>
+                  </div>
+                  <div className="action_links">
+                    <ul>
+                      <li className="add_to_cart"><Link to="./cart" data-tippy="Add to cart" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"> <span className="lnr lnr-cart"></span></Link></li>
+                      <li className="quick_button"><a href="#" data-tippy="quick view" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-bs-toggle="modal" data-bs-target="#modal_box" > <span className="lnr lnr-magnifier"></span></a></li>
+                      <li className="wishlist"><a href="wishlist.html" data-tippy="Add to Wishlist" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"><span className="lnr lnr-heart"></span></a></li>  
+                    </ul>
+                  </div>
+                </div>
+              <figcaption className="product_content">
+                <h4 className="product_name"><a href="product-details.html">Aliquam Consequat</a></h4>
+                <p><a href="#">cacke</a></p>
+                <div className="price_box"> 
+                  <span className="current_price">$26.00</span>
+                  <span className="old_price">$362.00</span>
+                </div>
+              </figcaption>
+    
+            </div>              
+              <div  className="single_product">
+    
+                <div className="product_thumb">
+                  <Link className="primary_img" to="/productDetail"><img src="assets\img\customImages\product1.jpg" alt=""/></Link>
+                  <Link className="secondary_img" to="/productDetail"><img src="assets\img\customImages\product2.webp" alt=""/></Link>
+                  <div className="label_product">
+                    <span className="label_sale">Sale</span>
+                    <span className="label_new">New</span>
+                  </div>
+                  <div className="action_links">
+                    <ul>
+                      <li className="add_to_cart"><Link to="./cart" data-tippy="Add to cart" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"> <span className="lnr lnr-cart"></span></Link></li>
+                      <li className="quick_button"><a href="#" data-tippy="quick view" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-bs-toggle="modal" data-bs-target="#modal_box" > <span className="lnr lnr-magnifier"></span></a></li>
+                      <li className="wishlist"><a href="wishlist.html" data-tippy="Add to Wishlist" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"><span className="lnr lnr-heart"></span></a></li>  
+                    </ul>
+                  </div>
+                </div>
+              <figcaption className="product_content">
+                <h4 className="product_name"><a href="product-details.html">Aliquam Consequat</a></h4>
+                <p><a href="#">cacke</a></p>
+                <div className="price_box"> 
+                  <span className="current_price">$26.00</span>
+                  <span className="old_price">$362.00</span>
+                </div>
+              </figcaption>
+    
+            </div>              
+              <div  className="single_product">
+    
+                <div className="product_thumb">
+                  <Link className="primary_img" to="/productDetail"><img src="assets\img\customImages\product1.jpg" alt=""/></Link>
+                  <Link className="secondary_img" to="/productDetail"><img src="assets\img\customImages\product2.webp" alt=""/></Link>
+                  <div className="label_product">
+                    <span className="label_sale">Sale</span>
+                    <span className="label_new">New</span>
+                  </div>
+                  <div className="action_links">
+                    <ul>
+                      <li className="add_to_cart"><Link to="./cart" data-tippy="Add to cart" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"> <span className="lnr lnr-cart"></span></Link></li>
+                      <li className="quick_button"><a href="#" data-tippy="quick view" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-bs-toggle="modal" data-bs-target="#modal_box" > <span className="lnr lnr-magnifier"></span></a></li>
+                      <li className="wishlist"><a href="wishlist.html" data-tippy="Add to Wishlist" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"><span className="lnr lnr-heart"></span></a></li>  
+                    </ul>
+                  </div>
+                </div>
+              <figcaption className="product_content">
+                <h4 className="product_name"><a href="product-details.html">Aliquam Consequat</a></h4>
+                <p><a href="#">cacke</a></p>
+                <div className="price_box"> 
+                  <span className="current_price">$26.00</span>
+                  <span className="old_price">$362.00</span>
+                </div>
+              </figcaption>
+    
+            </div>
+                          
+            <div  className="single_product">
+    
+    <div className="product_thumb">
+      <Link className="primary_img" to="/productDetail"><img src="assets\img\customImages\product1.jpg" alt=""/></Link>
+      <Link className="secondary_img" to="/productDetail"><img src="assets\img\customImages\product2.webp" alt=""/></Link>
+      <div className="label_product">
+        <span className="label_sale">Sale</span>
+        <span className="label_new">New</span>
+      </div>
+      <div className="action_links">
+        <ul>
+          <li className="add_to_cart"><Link to="./cart" data-tippy="Add to cart" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"> <span className="lnr lnr-cart"></span></Link></li>
+          <li className="quick_button"><a href="#" data-tippy="quick view" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-bs-toggle="modal" data-bs-target="#modal_box" > <span className="lnr lnr-magnifier"></span></a></li>
+          <li className="wishlist"><a href="wishlist.html" data-tippy="Add to Wishlist" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"><span className="lnr lnr-heart"></span></a></li>  
+        </ul>
+      </div>
+    </div>
+  <figcaption className="product_content">
+    <h4 className="product_name"><a href="product-details.html">Aliquam Consequat</a></h4>
+    <p><a href="#">cacke</a></p>
+    <div className="price_box"> 
+      <span className="current_price">$26.00</span>
+      <span className="old_price">$362.00</span>
+    </div>
+  </figcaption>
+
+</div>
          
 
               

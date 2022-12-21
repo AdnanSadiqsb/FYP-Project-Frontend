@@ -19,7 +19,7 @@ function Blog() {
                         <article className="single_blog " >
                             <figure>
                                 <div className="blog_thumb">
-                                    <a href="blog-details.html"><img src="assets/img/blog/blog1.jpg" alt=""/></a>
+                                    <a href="blog-details.html"><img src="assets\img\customImages\product1.jpg" alt=""/></a>
                                 </div>
                                 <figcaption className="blog_content">
                                    <div className="articles_date">
@@ -37,7 +37,7 @@ function Blog() {
                         <article className="single_blog">
                             <figure>
                                 <div className="blog_thumb">
-                                    <a href="blog-details.html"><img src="assets/img/blog/blog2.jpg" alt=""/></a>
+                                    <a href="blog-details.html"><img src="assets\img\customImages\product1.jpg" alt=""/></a>
                                 </div>
                                 <figcaption className="blog_content">
                                    <div className="articles_date">
@@ -55,7 +55,7 @@ function Blog() {
                         <article className="single_blog">
                             <figure>
                                 <div className="blog_thumb">
-                                    <a href="blog-details.html"><img src="assets/img/blog/blog3.jpg" alt=""/></a>
+                                    <a href="blog-details.html"><img src="assets\img\customImages\product1.jpg" alt=""/></a>
                                 </div>
                                 <figcaption className="blog_content">
                                    <div className="articles_date">
@@ -73,7 +73,7 @@ function Blog() {
                         <article className="single_blog">
                             <figure>
                                 <div className="blog_thumb">
-                                    <a href="blog-details.html"><img src="assets/img/blog/blog2.jpg" alt=""/></a>
+                                    <a href="blog-details.html"><img src="assets\img\customImages\product1.jpg" alt=""/></a>
                                 </div>
                                 <figcaption className="blog_content">
                                    <div className="articles_date">
