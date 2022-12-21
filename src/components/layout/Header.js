@@ -40,7 +40,7 @@ function Header() {
                                     <div id="menu" className="text-left ">
                                         <ul className="offcanvas_main_menu">
                                             <li className="menu-item-has-children active">
-                                                <a href="#">Home</a>
+                                                <Link to="/">Home</Link>
                                                
                                             </li>
                                             <li className="menu-item-has-children">
@@ -63,7 +63,7 @@ function Header() {
                                                 <a href="about.html">about Us</a>
                                             </li>
                                             <li className="menu-item-has-children">
-                                                <a href="contact.html"> Contact Us</a> 
+                                                <Link to="/contact"> Contact Us</Link> 
                                             </li>
                                         </ul>
                                     </div>

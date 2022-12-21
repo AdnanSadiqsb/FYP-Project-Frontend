@@ -1,6 +1,10 @@
-import React, {useState}from 'react'
+import React, {useEffect, useState}from 'react'
 
 function ProductDetail() {
+    useEffect(()=>{
+        window.scrollTo(0, 0);
+
+    },[])
     const [ detailSection, setDetailSection]=useState('reviews')
   return (
     <div>

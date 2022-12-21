@@ -1,8 +1,11 @@
-import React from 'react'
-import { useEffect } from 'react';
+import React,{useEffect} from 'react'
 import GoogleMapReact from 'google-map-react';
 
 function Contact() {
+    useEffect(()=>{
+        window.scrollTo(0, 0);
+    
+    },[])
     const defaultProps = {
         center: {
           lat: 10.998,
